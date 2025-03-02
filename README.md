@@ -1,5 +1,4 @@
-# html-productivity
-`# Productivity Manager (To-Do & Notes) 📈
+# Productivity Manager (To-Do & Notes) 📈
 
 A lightweight web app for task management and notes with local-first architecture. Built with modern web technologies.
 
@@ -36,9 +35,7 @@ A lightweight web app for task management and notes with local-first architectur
     - Template literals for HTML generation
     - Batch DOM updates using document fragments
     
-    js
     
-    Copy
     
     ```
     const fragment = document.createDocumentFragment();
@@ -47,10 +44,7 @@ A lightweight web app for task management and notes with local-first architectur
     
 3. **Network Layer**
     - Background sync every 5 minutes:
-    
-    js
-    
-    Copy
+  
     
     ```
     setInterval(syncWithCloud, 300000);
@@ -62,9 +56,6 @@ A lightweight web app for task management and notes with local-first architectur
 
 1. Clone repo:
 
-bash
-
-Copy
 
 ```
 git clone https://github.com/yourrepo/productivity-manager.git
