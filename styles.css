@@ -1,0 +1,53 @@
+.note-card {
+  margin-bottom: 1.5rem;
+}
+
+.task-item {
+  margin-bottom: 1rem;
+}
+@media (max-width: 768px) {
+  .notes-section {
+      margin-bottom: 2rem;
+  }
+}
+
+.note-form, .input-group {
+  margin-bottom: 2rem !important;
+}
+.btn-group .btn {
+  margin-right: 0.5rem;
+}
+h2.h5 {
+  margin-bottom: 1.5rem !important;
+}
+.notes-grid {
+  gap: 1.5rem;
+}
+.notes-section{
+  margin: 50px;
+}
+.todo-section {
+  margin: 50px;
+}
+.btn.btn-primary {
+  background-color: #1B4D3E !important;
+  border-color: #C7DB9C !important;
+}
+.btn.btn-warning{
+  background-color: #E07A5F !important;
+  border-color: #FDAB9E  !important;
+}
+.badge{
+  background-color: #1B4D3E !important;
+}
+.note-card, .task-item {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.note-card:hover, .task-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.btn-group .btn.active {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
